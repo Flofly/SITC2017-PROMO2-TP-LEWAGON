@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Icecream - Degustez une glace, maintenant</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top navbar-transparent" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Menu</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="">ICECREAM</a>
+			</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="about.html">
+							A propos
+						</a></li>
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">Suivez-nous !
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href=""><i class="fa fa-twitter-square"></i>Twitter</a></li>
+								<li><a href=""><i class="fa fa-facebook-square">Facebook</i></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="wrapper">
+		<div class="lead">
+			<h1>DEGUSTEZ UNE GLACE</h1>
+			<h2>MAINTENANT TOUT SUITE</h2>
+			<p>
+				<a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Je veux une glace</a>
+			</p>
+		</div>
+	</div>
+
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">&times;</span>
+						<span class="sr-only">Close</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">
+						<h3>Commandez maintenant!</h3>
+					</h4>
+					
+				</div>
+				<div class="modal-body">
+					<form role="form">
+						<div class="form-group">
+							<label>Votre email</label>
+							<input type="email" class="form-control" name="email" placeholder="votre email">
+						</div>
+
+							<div class="form-group">
+								<label>
+									<input type="radio" name="gender" value="c">Cornet
+								</label>
+								<label>
+									<input type="radio" name="gender" value="p">Pot
+								</label>
+							</div>
+
+							<div class="form-group">
+								<select>
+									<option value="co">Chocolat</option>
+									<option value="v">Vanille</option>
+									<option value="f">Fraise</option>
+									
+								</select>
+							</div>
+							<input type="submit" value="Commandez" name="" class="btn btn-primary">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="vertical-spacer"></div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="feature">
+					<img src="img/icon_57707/icon_57707.png">
+					<p>Choisissez jusque trois parfuns parmis notre catalogue de <strong>1000</strong>glaces maison.</p>
+				</div>
+			</div>
+
+
+			<div class="col-sm-3">
+				<div class="feature">
+					<img src="img/icon_29388/icon_29388.png">
+					<p>L'application vous <strong>géolocalise</strong> automatiquement et vous
+              		indique le temps d'attente estimé.</p>
+				</div>
+			</div>
+
+			<div class="col-sm-3">
+				<div class="feature">
+					<img src="img/icon_24755/icon_24755.png">
+					<p>Un de nos supers livreurs fonce pour vous apporter votre glace,qui sera <strong>préparée juste à temps</strong>.</p>
+				</div>
+			</div>
+
+			<div class="col-sm-3">
+				<div class="feature">
+					<img src="img/icon_17805/icon_17805.png">
+					<p>Pas de monnaie ? Pas un problème, le paiement est <strong>automatiquement</strong>débité sur votre carte bancaire.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-xs-12">
+				<h3>La mewsletter de ICECREAM</h3>
+				<br/>
+				<form class="form-inline" role="form" action="your mailchimp list url" method="post" id="mc-embeded-subscribe-form">
+					<input type="email" name="email" class="form-control" id="" placeholder="email adress" required="">
+					<input type="submit" name="" value="Suivez-nous" class="btn btn-primary">
+					
+				</form>
+				<br>
+				<p>Pour plus d'infos sur nous, c'est par <a href="about.html">ici</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="vertical-spacer"></div>
+
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<ul class="list-inline social text-center">
+						<li><a href=""><i class="fa fa-twitter"></i></a></li>
+						<li><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li><a href=""><i class="fa fa-instagram"></i></a></li>
+						<li><a href=""><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="col-lg-9">
+					<div class="text-center">
+						ICECREAM est une startup fictive cree dans le cadre de <a href="#">cetetejecode.fr</a> organise par lewagon paris.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
